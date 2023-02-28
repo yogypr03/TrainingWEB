@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
-  title = "Family App";
+  title = "Web Application Test";
   users: any;
   constructor(private http: HttpClient) {}
 
